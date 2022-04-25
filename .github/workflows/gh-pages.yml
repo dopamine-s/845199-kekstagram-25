@@ -30,6 +30,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FOLDER: ./build
+          FOLDER: .
           BRANCH: gh-pages
           SINGLE_COMMIT: false
